@@ -1,9 +1,8 @@
 # TouchInterceptor ♣
-**When all else fails add a TapInterceptor to the UIView**
-A quick (but not so dirty) way to intercept Taps on a UIView without interfering with other classes that may already be attached. i.e., MKMapView.
+**When all else fails add a TouchInterceptor to the UIView**
+A quick (but not so dirty) way to intercept Touches on a UIView without interfering with other classes that may already be attached. i.e., MKMapView.
 
-> I was having with the standard UIGestureRecognizers on a MKMapView until I ran across a StackOverflow post showcasing a 'WildcardGestureRecognizer' by Raymond Daly.
-This proved to be the best way to handle the issue and the code committed herein is an amplification of Raymond's original to make it a little easier to integrate into a project.
+> I was having with the standard UIGestureRecognizers on a MKMapView until I ran across a StackOverflow post showcasing a 'WildcardGestureRecognizer' by Raymond Daly. This proved to be the best way to handle the issue and the code committed herein is an amplification of Raymond's original to make it a little easier to integrate into a project.
 
 ## Usage
 
